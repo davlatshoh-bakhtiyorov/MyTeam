@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A91316672B2DC019000E6442 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91316662B2DC019000E6442 /* TableViewCell.swift */; };
+		A94D29A82B2C2F4D002E2105 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94D29A72B2C2F4D002E2105 /* AppDelegate.swift */; };
+		A94D29AA2B2C2F4D002E2105 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94D29A92B2C2F4D002E2105 /* SceneDelegate.swift */; };
+		A94D29AC2B2C2F4D002E2105 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94D29AB2B2C2F4D002E2105 /* ViewController.swift */; };
+		A94D29AF2B2C2F4D002E2105 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94D29AD2B2C2F4D002E2105 /* Main.storyboard */; };
+		A94D29B12B2C2F4F002E2105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A94D29B02B2C2F4F002E2105 /* Assets.xcassets */; };
+		A94D29B42B2C2F4F002E2105 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94D29B22B2C2F4F002E2105 /* LaunchScreen.storyboard */; };
+		A94D29BF2B2C2F4F002E2105 /* Mening_JamoamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94D29BE2B2C2F4F002E2105 /* Mening_JamoamTests.swift */; };
+		A94D29C92B2C2F4F002E2105 /* Mening_JamoamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94D29C82B2C2F4F002E2105 /* Mening_JamoamUITests.swift */; };
+		A94D29CB2B2C2F4F002E2105 /* Mening_JamoamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94D29CA2B2C2F4F002E2105 /* Mening_JamoamUITestsLaunchTests.swift */; };
+		A94D29DE2B2C3698002E2105 /* AddGamerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94D29DD2B2C3698002E2105 /* AddGamerViewController.swift */; };
+		A97149CF2B2EA6E700BA1882 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = A97149C32B2EA6E600BA1882 /* FMDatabasePool.m */; };
+		A97149D02B2EA6E700BA1882 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = A97149C62B2EA6E600BA1882 /* FMResultSet.m */; };
+		A97149D12B2EA6E700BA1882 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A97149C72B2EA6E600BA1882 /* FMDatabaseQueue.m */; };
+		A97149D22B2EA6E700BA1882 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A97149C92B2EA6E700BA1882 /* FMDatabase.m */; };
+		A97149D32B2EA6E700BA1882 /* info-xrOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = A97149CB2B2EA6E700BA1882 /* info-xrOS.plist */; };
+		A97149D42B2EA6E700BA1882 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A97149CC2B2EA6E700BA1882 /* FMDatabaseAdditions.m */; };
+		A97149D62B2EA75500BA1882 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97149D52B2EA75500BA1882 /* Util.swift */; };
+		A97149D82B2EA92100BA1882 /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97149D72B2EA92100BA1882 /* StudentModel.swift */; };
+		A97149DA2B2EA99D00BA1882 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97149D92B2EA99D00BA1882 /* ModelManager.swift */; };
+		A98CF8C22B316FF200010151 /* MyTeam.db in Resources */ = {isa = PBXBuildFile; fileRef = A98CF8C12B316FF200010151 /* MyTeam.db */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A94D29BB2B2C2F4F002E2105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A94D299C2B2C2F4D002E2105 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A94D29A32B2C2F4D002E2105;
+			remoteInfo = "Mening Jamoam";
+		};
+		A94D29C52B2C2F4F002E2105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A94D299C2B2C2F4D002E2105 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A94D29A32B2C2F4D002E2105;
+			remoteInfo = "Mening Jamoam";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A91316662B2DC019000E6442 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		A94D29A42B2C2F4D002E2105 /* Mening Jamoam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mening Jamoam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94D29A72B2C2F4D002E2105 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A94D29A92B2C2F4D002E2105 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A94D29AB2B2C2F4D002E2105 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A94D29AE2B2C2F4D002E2105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A94D29B02B2C2F4F002E2105 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A94D29B32B2C2F4F002E2105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A94D29B52B2C2F4F002E2105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Mening Jamoam/Supporting Files/Info.plist"; sourceTree = SOURCE_ROOT; };
+		A94D29BA2B2C2F4F002E2105 /* Mening JamoamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mening JamoamTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94D29BE2B2C2F4F002E2105 /* Mening_JamoamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mening_JamoamTests.swift; sourceTree = "<group>"; };
+		A94D29C42B2C2F4F002E2105 /* Mening JamoamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mening JamoamUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94D29C82B2C2F4F002E2105 /* Mening_JamoamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mening_JamoamUITests.swift; sourceTree = "<group>"; };
+		A94D29CA2B2C2F4F002E2105 /* Mening_JamoamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mening_JamoamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A94D29DD2B2C3698002E2105 /* AddGamerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGamerViewController.swift; sourceTree = "<group>"; };
+		A97149C22B2EA6E600BA1882 /* Mening Jamoam-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mening Jamoam-Bridging-Header.h"; sourceTree = "<group>"; };
+		A97149C32B2EA6E600BA1882 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		A97149C42B2EA6E600BA1882 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		A97149C52B2EA6E600BA1882 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		A97149C62B2EA6E600BA1882 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		A97149C72B2EA6E600BA1882 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		A97149C82B2EA6E600BA1882 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		A97149C92B2EA6E700BA1882 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		A97149CA2B2EA6E700BA1882 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		A97149CB2B2EA6E700BA1882 /* info-xrOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "info-xrOS.plist"; sourceTree = "<group>"; };
+		A97149CC2B2EA6E700BA1882 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		A97149CD2B2EA6E700BA1882 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		A97149CE2B2EA6E700BA1882 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		A97149D52B2EA75500BA1882 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		A97149D72B2EA92100BA1882 /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
+		A97149D92B2EA99D00BA1882 /* ModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		A98CF8C12B316FF200010151 /* MyTeam.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyTeam.db; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A94D29A12B2C2F4D002E2105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94D29B72B2C2F4F002E2105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94D29C12B2C2F4F002E2105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A94D209A2B2DB7B30089CDD2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A91316662B2DC019000E6442 /* TableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A94D299B2B2C2F4D002E2105 = {
+			isa = PBXGroup;
+			children = (
+				A94D29A62B2C2F4D002E2105 /* Mening Jamoam */,
+				A94D29BD2B2C2F4F002E2105 /* Mening JamoamTests */,
+				A94D29C72B2C2F4F002E2105 /* Mening JamoamUITests */,
+				A94D29A52B2C2F4D002E2105 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A94D29A52B2C2F4D002E2105 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A94D29A42B2C2F4D002E2105 /* Mening Jamoam.app */,
+				A94D29BA2B2C2F4F002E2105 /* Mening JamoamTests.xctest */,
+				A94D29C42B2C2F4F002E2105 /* Mening JamoamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A94D29A62B2C2F4D002E2105 /* Mening Jamoam */ = {
+			isa = PBXGroup;
+			children = (
+				A94D29DB2B2C3009002E2105 /* Helper */,
+				A94D29DA2B2C2FE6002E2105 /* Supporting Files */,
+				A94D29D92B2C2FE0002E2105 /* Model */,
+				A94D29D82B2C2FBC002E2105 /* View */,
+				A94D29D72B2C2FB3002E2105 /* Controller */,
+				A94D29B02B2C2F4F002E2105 /* Assets.xcassets */,
+			);
+			path = "Mening Jamoam";
+			sourceTree = "<group>";
+		};
+		A94D29BD2B2C2F4F002E2105 /* Mening JamoamTests */ = {
+			isa = PBXGroup;
+			children = (
+				A94D29BE2B2C2F4F002E2105 /* Mening_JamoamTests.swift */,
+			);
+			path = "Mening JamoamTests";
+			sourceTree = "<group>";
+		};
+		A94D29C72B2C2F4F002E2105 /* Mening JamoamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A94D29C82B2C2F4F002E2105 /* Mening_JamoamUITests.swift */,
+				A94D29CA2B2C2F4F002E2105 /* Mening_JamoamUITestsLaunchTests.swift */,
+			);
+			path = "Mening JamoamUITests";
+			sourceTree = "<group>";
+		};
+		A94D29D72B2C2FB3002E2105 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A94D29AB2B2C2F4D002E2105 /* ViewController.swift */,
+				A94D29DD2B2C3698002E2105 /* AddGamerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A94D29D82B2C2FBC002E2105 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A94D209A2B2DB7B30089CDD2 /* Cell */,
+				A94D29DC2B2C30AA002E2105 /* StoryBoard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A94D29D92B2C2FE0002E2105 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A98CF8C12B316FF200010151 /* MyTeam.db */,
+				A97149D52B2EA75500BA1882 /* Util.swift */,
+				A97149D72B2EA92100BA1882 /* StudentModel.swift */,
+				A97149D92B2EA99D00BA1882 /* ModelManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A94D29DA2B2C2FE6002E2105 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A94D29A72B2C2F4D002E2105 /* AppDelegate.swift */,
+				A94D29A92B2C2F4D002E2105 /* SceneDelegate.swift */,
+				A94D29B52B2C2F4F002E2105 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A94D29DB2B2C3009002E2105 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A97149C12B2EA6B800BA1882 /* FMDB */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A94D29DC2B2C30AA002E2105 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				A94D29AD2B2C2F4D002E2105 /* Main.storyboard */,
+				A94D29B22B2C2F4F002E2105 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		A97149C12B2EA6B800BA1882 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				A97149CE2B2EA6E700BA1882 /* FMDatabase.h */,
+				A97149C92B2EA6E700BA1882 /* FMDatabase.m */,
+				A97149CD2B2EA6E700BA1882 /* FMDatabaseAdditions.h */,
+				A97149CC2B2EA6E700BA1882 /* FMDatabaseAdditions.m */,
+				A97149C82B2EA6E600BA1882 /* FMDatabasePool.h */,
+				A97149C32B2EA6E600BA1882 /* FMDatabasePool.m */,
+				A97149C42B2EA6E600BA1882 /* FMDatabaseQueue.h */,
+				A97149C72B2EA6E600BA1882 /* FMDatabaseQueue.m */,
+				A97149C52B2EA6E600BA1882 /* FMDB.h */,
+				A97149CA2B2EA6E700BA1882 /* FMResultSet.h */,
+				A97149C62B2EA6E600BA1882 /* FMResultSet.m */,
+				A97149CB2B2EA6E700BA1882 /* info-xrOS.plist */,
+				A97149C22B2EA6E600BA1882 /* Mening Jamoam-Bridging-Header.h */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A94D29A32B2C2F4D002E2105 /* Mening Jamoam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94D29CE2B2C2F4F002E2105 /* Build configuration list for PBXNativeTarget "Mening Jamoam" */;
+			buildPhases = (
+				A94D29A02B2C2F4D002E2105 /* Sources */,
+				A94D29A12B2C2F4D002E2105 /* Frameworks */,
+				A94D29A22B2C2F4D002E2105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mening Jamoam";
+			productName = "Mening Jamoam";
+			productReference = A94D29A42B2C2F4D002E2105 /* Mening Jamoam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A94D29B92B2C2F4F002E2105 /* Mening JamoamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94D29D12B2C2F4F002E2105 /* Build configuration list for PBXNativeTarget "Mening JamoamTests" */;
+			buildPhases = (
+				A94D29B62B2C2F4F002E2105 /* Sources */,
+				A94D29B72B2C2F4F002E2105 /* Frameworks */,
+				A94D29B82B2C2F4F002E2105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A94D29BC2B2C2F4F002E2105 /* PBXTargetDependency */,
+			);
+			name = "Mening JamoamTests";
+			productName = "Mening JamoamTests";
+			productReference = A94D29BA2B2C2F4F002E2105 /* Mening JamoamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A94D29C32B2C2F4F002E2105 /* Mening JamoamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94D29D42B2C2F4F002E2105 /* Build configuration list for PBXNativeTarget "Mening JamoamUITests" */;
+			buildPhases = (
+				A94D29C02B2C2F4F002E2105 /* Sources */,
+				A94D29C12B2C2F4F002E2105 /* Frameworks */,
+				A94D29C22B2C2F4F002E2105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A94D29C62B2C2F4F002E2105 /* PBXTargetDependency */,
+			);
+			name = "Mening JamoamUITests";
+			productName = "Mening JamoamUITests";
+			productReference = A94D29C42B2C2F4F002E2105 /* Mening JamoamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A94D299C2B2C2F4D002E2105 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A94D29A32B2C2F4D002E2105 = {
+						CreatedOnToolsVersion = 15.0.1;
+						LastSwiftMigration = 1500;
+					};
+					A94D29B92B2C2F4F002E2105 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = A94D29A32B2C2F4D002E2105;
+					};
+					A94D29C32B2C2F4F002E2105 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = A94D29A32B2C2F4D002E2105;
+					};
+				};
+			};
+			buildConfigurationList = A94D299F2B2C2F4D002E2105 /* Build configuration list for PBXProject "Mening Jamoam" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A94D299B2B2C2F4D002E2105;
+			productRefGroup = A94D29A52B2C2F4D002E2105 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A94D29A32B2C2F4D002E2105 /* Mening Jamoam */,
+				A94D29B92B2C2F4F002E2105 /* Mening JamoamTests */,
+				A94D29C32B2C2F4F002E2105 /* Mening JamoamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A94D29A22B2C2F4D002E2105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94D29B42B2C2F4F002E2105 /* LaunchScreen.storyboard in Resources */,
+				A98CF8C22B316FF200010151 /* MyTeam.db in Resources */,
+				A97149D32B2EA6E700BA1882 /* info-xrOS.plist in Resources */,
+				A94D29B12B2C2F4F002E2105 /* Assets.xcassets in Resources */,
+				A94D29AF2B2C2F4D002E2105 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94D29B82B2C2F4F002E2105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94D29C22B2C2F4F002E2105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A94D29A02B2C2F4D002E2105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97149D62B2EA75500BA1882 /* Util.swift in Sources */,
+				A97149D82B2EA92100BA1882 /* StudentModel.swift in Sources */,
+				A91316672B2DC019000E6442 /* TableViewCell.swift in Sources */,
+				A97149D12B2EA6E700BA1882 /* FMDatabaseQueue.m in Sources */,
+				A97149CF2B2EA6E700BA1882 /* FMDatabasePool.m in Sources */,
+				A97149D22B2EA6E700BA1882 /* FMDatabase.m in Sources */,
+				A97149D02B2EA6E700BA1882 /* FMResultSet.m in Sources */,
+				A94D29AC2B2C2F4D002E2105 /* ViewController.swift in Sources */,
+				A97149DA2B2EA99D00BA1882 /* ModelManager.swift in Sources */,
+				A94D29A82B2C2F4D002E2105 /* AppDelegate.swift in Sources */,
+				A94D29AA2B2C2F4D002E2105 /* SceneDelegate.swift in Sources */,
+				A94D29DE2B2C3698002E2105 /* AddGamerViewController.swift in Sources */,
+				A97149D42B2EA6E700BA1882 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94D29B62B2C2F4F002E2105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94D29BF2B2C2F4F002E2105 /* Mening_JamoamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94D29C02B2C2F4F002E2105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94D29C92B2C2F4F002E2105 /* Mening_JamoamUITests.swift in Sources */,
+				A94D29CB2B2C2F4F002E2105 /* Mening_JamoamUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A94D29BC2B2C2F4F002E2105 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A94D29A32B2C2F4D002E2105 /* Mening Jamoam */;
+			targetProxy = A94D29BB2B2C2F4F002E2105 /* PBXContainerItemProxy */;
+		};
+		A94D29C62B2C2F4F002E2105 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A94D29A32B2C2F4D002E2105 /* Mening Jamoam */;
+			targetProxy = A94D29C52B2C2F4F002E2105 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A94D29AD2B2C2F4D002E2105 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A94D29AE2B2C2F4D002E2105 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A94D29B22B2C2F4F002E2105 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A94D29B32B2C2F4F002E2105 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A94D29CC2B2C2F4F002E2105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A94D29CD2B2C2F4F002E2105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A94D29CF2B2C2F4F002E2105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WAGA639RTZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mening Jamoam/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "davlatshohbakhtiyorov.Mening-Jamoam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Mening Jamoam/Helper/FMDB/Mening Jamoam-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A94D29D02B2C2F4F002E2105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WAGA639RTZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mening Jamoam/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "davlatshohbakhtiyorov.Mening-Jamoam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Mening Jamoam/Helper/FMDB/Mening Jamoam-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A94D29D22B2C2F4F002E2105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WAGA639RTZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "davlatshohbakhtiyorov.Mening-JamoamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mening Jamoam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mening Jamoam";
+			};
+			name = Debug;
+		};
+		A94D29D32B2C2F4F002E2105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WAGA639RTZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "davlatshohbakhtiyorov.Mening-JamoamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mening Jamoam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mening Jamoam";
+			};
+			name = Release;
+		};
+		A94D29D52B2C2F4F002E2105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WAGA639RTZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "davlatshohbakhtiyorov.Mening-JamoamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mening Jamoam";
+			};
+			name = Debug;
+		};
+		A94D29D62B2C2F4F002E2105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WAGA639RTZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "davlatshohbakhtiyorov.Mening-JamoamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mening Jamoam";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A94D299F2B2C2F4D002E2105 /* Build configuration list for PBXProject "Mening Jamoam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94D29CC2B2C2F4F002E2105 /* Debug */,
+				A94D29CD2B2C2F4F002E2105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94D29CE2B2C2F4F002E2105 /* Build configuration list for PBXNativeTarget "Mening Jamoam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94D29CF2B2C2F4F002E2105 /* Debug */,
+				A94D29D02B2C2F4F002E2105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94D29D12B2C2F4F002E2105 /* Build configuration list for PBXNativeTarget "Mening JamoamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94D29D22B2C2F4F002E2105 /* Debug */,
+				A94D29D32B2C2F4F002E2105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94D29D42B2C2F4F002E2105 /* Build configuration list for PBXNativeTarget "Mening JamoamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94D29D52B2C2F4F002E2105 /* Debug */,
+				A94D29D62B2C2F4F002E2105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A94D299C2B2C2F4D002E2105 /* Project object */;
+}
